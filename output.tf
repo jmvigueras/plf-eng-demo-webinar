@@ -48,11 +48,11 @@ output "fgt_values" {
 output "k8s_values_cli" {
   value = local.k8s_values_cli
 }
-output "k8s_cert_cli" {
-  value = local.k8s_values_cli["KUBE_TOKEN"]
+output "k8s_cert_cli" { 
+  value = local.k8s_values_cli["KUBE_CERTIFICATE"]
 }
 output "k8s_token_cli" {
-  value = local.k8s_values_cli["KUBE_CERTIFICATE"]
+  value = local.k8s_values_cli["KUBE_TOKEN"]
 }
 
 #-----------------------------------------------------------------------------------------------------
