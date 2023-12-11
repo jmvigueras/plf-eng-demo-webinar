@@ -98,7 +98,7 @@ metadata:
     app: result
   name: result
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: result
@@ -137,7 +137,7 @@ metadata:
     app: vote
   name: vote
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       app: vote
