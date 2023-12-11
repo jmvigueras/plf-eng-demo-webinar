@@ -67,7 +67,7 @@ locals {
   # FortiWEB Cloud
   #-----------------------------------------------------------------------------------------------------
   # Fortiweb Cloud template ID
-  fwb_cloud_template = "b4516b99-3d08-4af8-8df7-00246da409cf"
+  fwb_cloud_template = "4f649540-cb52-4ef7-85e7-be12dafe1f29"
   # FortiWEB Cloud regions where deploy
   fortiweb_region = var.region["id"]
   # FortiWEB Cloud platform names
